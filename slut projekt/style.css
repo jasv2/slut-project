@@ -1,82 +1,80 @@
 table{
-	width:100%;
+ width:100%;
 }	
 tr:nth-child(odd){ 
-background-color:red; 
-color:white;
+ background-color:red; 
+ color:white;
 }
 tr:nth-child(even){ 
-background-color:yellow; 
+ background-color:yellow; 
 
 }
 
 th{
-	background-color:lightgray;
-    color:black;
-	border-radius:10px;
+ background-color:lightgray;
+ color:black;
+ border-radius:10px;
 }
 td:nth-child(4),th:nth-child(4){
-	text-align:right;
+ text-align:right;
 }
 td:nth-child(2),th:nth-child(2),td:nth-child(3),th:nth-child(3){
-	text-align:center;
+ text-align:center;
 }
 td:nth-child(1),th:nth-child(1){
-	text-align:left;
+ text-align:left;
 }
 table, td, tr ,th{
-	 border: 1px solid black; 
-	 border-collapse: collapse;
+ border: 1px solid black; 
+ border-collapse: collapse;
 }
 th,td{
-	width:25%;
+ width:25%;
 }
 nav>ul{
-	list-style:none;
+ list-style:none;
+ display: grid;
+ grid-template-columns: 100px 100px 100px 100px;
+ grid-gap:10px;
+}
+nav a{
+ text-align:center;
+ display:block;
+ width:100%;
 }
 main p{
-	color:#aaa;
-}
-
-.container {
-  display: grid;
- grid-template-columns: 100px 100px 100px 100px;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
+ color:#aaa;
 }
 .item-c {
-  grid-column: 3 / span 2;
-  grid-row: third-line / 4;
+ grid-column: 3 / span 2;
+ grid-row: third-line / 4;
 }
 header{
-	font-size: 2em;
+ font-size: 2em;
 }
 h1,p{
-font-family: ariel;
+ font-family: ariel;
 }
 body{
-	background-color:#dddddd;
+ background-color:#dddddd;
 }
 #bild{
-float:left;	
+ float:left;	
 }
 a:link{
-color:green;
+ color:green;
 }
 a:visited{
-color:purple;
+ color:purple;
 }
 a:focus{
-color:blue
+ color:blue
 }
 a:hover{
-color:rgb(0,255,0);
+ color:rgb(0,255,0);
 }
 a:active{
-color:red
+ color:red
 }
 
 
