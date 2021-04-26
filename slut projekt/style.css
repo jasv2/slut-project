@@ -15,6 +15,7 @@ th{
  color:black;
  border-radius:10px;
 }
+/*nth-child används om du till exmple vill att all elment som har rad numer 4 har texten i miten  */
 td:nth-child(4),th:nth-child(4){
  text-align:right;
 }
@@ -31,12 +32,14 @@ table, td, tr ,th{
 th,td{
  width:25%;
 }
+/*list-style vilken stile listan har till exemple o det sk ha punkt eller numer grid-template-columns beskriver att det fins 4 columnrar som är 100px stora  */
 nav>ul{
  list-style:none;
  display: grid;
  grid-template-columns: 100px 100px 100px 100px;
  grid-gap:10px;
 }
+/*display vikan rita ut det med en bred och en höjd   */
 nav a{
  text-align:center;
  display:block;
@@ -45,6 +48,8 @@ nav a{
 main p{
  color:#aaa;
 }
+/* grid column säger att den ska ha tre columnrar som streker sig över 2 clumrar */
+/*grid-row  sträker sige över en column */
 .item-c {
  grid-column: 3 / span 2;
  grid-row: third-line / 4;
@@ -58,9 +63,11 @@ h1,p{
 body{
  background-color:#dddddd;
 }
+/* får text runt bild */
 #bild{
  float:left;	
 }
+/*koder för vad som händer om du klikar på nvagtions linkarna till exemple om du har besökt den del av hemsidan redan en gång tidager blir text färgen blå */
 a:link{
  color:green;
 }
